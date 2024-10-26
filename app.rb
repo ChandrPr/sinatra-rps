@@ -16,9 +16,9 @@ get("/rock") do
   when 0
     @outcome = "We tied!"
   when 1 #Or -2
-    @outcome = "You win!"
+    @outcome = "We won!"
   when 2 #Or -1
-    @outcome = "You lost!"
+    @outcome = "We lost!"
   end
   erb(:rps)
 end
@@ -34,9 +34,9 @@ get("/paper") do
   when 0
     @outcome = "We tied!"
   when 1 #Or -2
-    @outcome = "You win!"
+    @outcome = "We won!"
   when 2 #Or -1
-    @outcome = "You lost!"
+    @outcome = "We lost!"
   end
   erb(:rps)
 end
@@ -52,9 +52,9 @@ get("/scissors") do
   when 0
     @outcome = "We tied!"
   when 1 #Or -2
-    @outcome = "You win!"
+    @outcome = "We won!"
   when 2 #Or -1
-    @outcome = "You lost!"
+    @outcome = "We lost!"
   end
   erb(:rps)
 end
